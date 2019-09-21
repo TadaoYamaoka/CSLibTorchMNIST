@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.757
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSLibTorchMNIST", "CSLibTorchMNIST\CSLibTorchMNIST.csproj", "{AD1949EE-99BB-44BC-A676-1BC84094E420}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AD1949EE-99BB-44BC-A676-1BC84094E420}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD1949EE-99BB-44BC-A676-1BC84094E420}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD1949EE-99BB-44BC-A676-1BC84094E420}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD1949EE-99BB-44BC-A676-1BC84094E420}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2E67E6E6-9114-44D1-8CF5-E0121F47D249}
+	EndGlobalSection
+EndGlobal
