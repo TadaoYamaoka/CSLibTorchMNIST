@@ -163,7 +163,7 @@ void test(
 }
 
 // for test
-void main()
+int main()
 {
   int dataset_size = 2;
   float* dataset = new float[kTestBatchSize * 28 * 28 * dataset_size];
@@ -174,4 +174,6 @@ void main()
 
   init();
   test(dataset, targetset, dataset_size);
+
+  return 0;
 }
