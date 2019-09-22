@@ -161,19 +161,3 @@ void test(
       test_loss,
       static_cast<double>(correct) / dataset_size);
 }
-
-// for test
-int main()
-{
-  int dataset_size = 2;
-  float* dataset = new float[kTestBatchSize * 28 * 28 * dataset_size];
-  int64_t* targetset = new int64_t[kTestBatchSize * dataset_size];
-
-  std::fill_n(dataset, kTestBatchSize * 28 * 28 * dataset_size, 0);
-  std::fill_n(targetset, kTestBatchSize * dataset_size, 0);
-
-  init();
-  test(dataset, targetset, dataset_size);
-
-  return 0;
-}
