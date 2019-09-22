@@ -123,7 +123,7 @@ void train(
     if (batch_idx++ % kLogInterval == 0)
     {
       std::printf(
-          "\rTrain [%5ld/%5ld] Loss: %.4f",
+          "\rTrain [%5ld/%5d] Loss: %.4f",
           batch_idx * kTrainBatchSize,
           dataset_size,
           loss.template item<float>());
